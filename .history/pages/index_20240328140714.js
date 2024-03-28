@@ -1,6 +1,6 @@
 import styles from "@/styles/Home.module.css";
 import ParentToChild from "./ParentOne";
-import ChildToParent from "./ParentTwo";
+import Chold from "./ParentTwo";
 
 
 export default function Home() {
@@ -8,7 +8,6 @@ export default function Home() {
     <>
       <main className={`${styles.main}`}>
         <ParentToChild />
-        <ChildToParent />
         
       </main>
     </>
